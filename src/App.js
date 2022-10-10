@@ -1,4 +1,5 @@
 import React from 'react';
+import UseState from './components/Devoirs/UseState';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import SpeakersUiList from './components/SpeakersUiList';
@@ -11,7 +12,10 @@ function App() {
     <div>
       <Header/>
       <SpeakersUiList />
-      <Footer/>
+      <Footer />
+
+      {/* décommenter UseState pour voir mon travail */}
+      {/* <UseState/> */}
     
     </div>
   );

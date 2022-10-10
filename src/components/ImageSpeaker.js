@@ -1,9 +1,9 @@
 import React from 'react'
 
-function ImageSpeaker({img}) {
+function ImageSpeaker({id}) {
   return (
     <div className='image'>
-              <img alt='' src={img} />
+              <img alt='' src={`./images/speaker-${id}.jpg`} />
       </div>
   )
 }
